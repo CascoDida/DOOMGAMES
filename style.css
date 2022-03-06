@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "doom";
+    src: url("font/EternalLogo-51X9B.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family: "doom1";
+    src: url("font/EternalUiRegular-1Gap2.ttf") format("truetype");
+}
+
+body{
+    background-color: azure;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.959);
+    
+}
+
+
+header h1{
+    font-family: "doom";
+    color: rgb(255, 255, 255);
+
+}
+
+nav a{
+text-decoration: none;
+background-color: black;
+font-size: 25px;
+padding: 10px;
+border-radius: 10px;
+color: aliceblue;
+font-family: "doom1";
+transition: .4s;
+}
+
+nav a:hover{
+    background-color: azure;
+    color: black;
+
+}
+
+/**MAIN-HOME**/
+
+.home-content{
+    display: flex;
+    background-image: url("img/ceu-estrelado-laranja-1920x730.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+.content-title{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.content-title h2{
+    font-family: "doom1";
+    font-size: 50px;
+    color: aliceblue;
+}
+
+/**HISTORIA**/
+
+#HISTORIA{
+    background-color: rgb(202, 204, 206);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+
+.section-title h3{
+    font-family: "doom";
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    
+}
+
+.content-historia{
+    display: flex;
+    margin: 10px;
+}
+
+.content-historia article{
+    width: 
+}
+
+
+
